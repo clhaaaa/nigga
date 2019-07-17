@@ -1,0 +1,35 @@
+#pragma once
+
+#include <Windows.h>
+#include <Psapi.h>
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include <chrono>
+#include <algorithm>
+#include <deque>
+#include <string>
+#include <filesystem>
+#include "..\Utils\Utils.h"
+#include "..\SDK\IClientMode.h"
+#include "..\SDK\IVEngineClient.h"
+#include "..\SDK\PlayerInfo.h"
+#include "..\SDK\ISurface.h"
+#include "..\SDK\ISurfaceData.h"
+#include "..\SDK\ClientClass.h"
+#include "..\SDK\CPrediction.h"
+#include "..\Utils\GlobalVars.h"
+#include "..\SDK\CGlobalVarsBase.h"
+#include "..\SDK\IEngineTrace.h"
+#include "..\SDK\CModelRender.h"
+#include "..\SDK\IVModelInfo.h"
+#include "..\SDK\IMaterial.h"
+#include "..\SDK\Checksum_Md5.h"
+#include "..\SDK\Hitboxes.h"
+#include "..\Utils\Math.h"
+#include "..\SDK\bspflags.h"
+#include "..\SDK\ICvar.h"
+#include "..\SDK\IMDLCache.h"
+#include "..\SDK\IClientState.h"
+#include "..\Menu\Menu.h"
+// epic v2
